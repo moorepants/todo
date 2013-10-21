@@ -7,13 +7,17 @@ Human Motion and Control Lab
 
 - Write up walking database proposal
 - Write blog post about high school class visiting
+- [x] Setup new computer
+
+   - [x] Write a script that fully installs the system.
 
 Walking System Identification
 -----------------------------
 
 - Analysis
 
-  - Validate the model on different data
+  - Get travis testing working. There are issues with the Cython version, numpy
+    version to build pandas.
 
 - Finish reading the van der Kooij paper
 
@@ -24,7 +28,6 @@ Walking System Identification
 - See if our controller can drive an OpenSim model or Ton's 2D model
 
   - Investigate the 2D models in Open Sim
-  - Try running an OpenSim Model
   - Reproduce the sample controller that is in OpenSimm
 
 - Wrap Ton's walking model from his tutorial
@@ -32,7 +35,6 @@ Walking System Identification
   - Go through "Learn C the Hard Way" to get back up to speed in the
     language
 
-    - Exercise 13
     - Exercise 14
     - Exercise 15
     - Exercise 16
@@ -64,17 +66,23 @@ Lab Website
   - check into embedding zotero collections into a page
   - check into using CMFBibliographyAT with Plone 4.3
 
-- Figure out how to display the event date instead of the creation date in
-  the rss feed: https://github.com/csu-hmc/hmc.csuohio.edu/issues/1
-- [x] Request quotes from Plone dev to do all this stuff.
 - Get folks to submit headshot and bio
 - Finish the a people page
+- Continue conversation with folks
+- [x] Enable intranet/external workflow.
+- Figure out how to display the event date instead of the creation date in
+  the rss feed: https://github.com/csu-hmc/hmc.csuohio.edu/issues/1
+- Overload the rss portlet template to get the gcal event data instead.
+- Add google analytics.
+- Allow anonymous commenting.
+- Select a quote and start working with the consultant.
 
 Purchasing
 ----------
 
-- Check on computer and docking stations.
+- Check on docking stations.
 - Check on Newegg order.
+- [x] Order Matlab DSP toolbox for Sandy.
 
 CSU
 ===
@@ -115,13 +123,8 @@ Bicycle Stuff
   - Make a DOI for the H5 files but only include a readme that points to a
     download on my site.
 
-- Prepare materials for senior design group
-
-  - Bring the bike in.
-  - Gyro bike non-linear and linear model.
-  - Papers to read.
-  - Web pages that are useful.
-  - Get the bike working, they can do that.
+- [x] Check on the charger for the gyrobike.
+- [x] Bring in the make magazine with the microcontroller review
 
 BMD 2013
 --------
@@ -164,4 +167,7 @@ PyDy/SymPy
 - Push pydy_viz release 0.1.0 to PyPi
 - Review Tarun's tutorial PR(s)
 - Review Sachins PR 2478
+- Start proposal for PyDy future
 - http://www.multibody.net/mbsymba/ add to proposal
+- Make some example visualizations
+- Speed up the transform generations in pydy viz
