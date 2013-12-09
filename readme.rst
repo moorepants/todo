@@ -6,18 +6,11 @@ Human Motion and Control Lab
 ============================
 
 - Write up walking database proposal
-- Write blog post about high school class visiting
-- [x] Setup new computer
+- Write blog post about all of the tours we've given
+- Setup the NAS server
 
-   - [x] Write a script that fully installs the system.
-
-Walking System Identification
------------------------------
-
-- Analysis
-
-  - Get travis testing working. There are issues with the Cython version, numpy
-    version to build pandas.
+Gait Control System Identification
+----------------------------------
 
 - Finish reading the van der Kooij paper
 
@@ -39,9 +32,11 @@ Walking System Identification
     - Exercise 15
     - Exercise 16
 
-  - Try simple Cython wrapping
   - Read about MEX functions in Matlab
   - Try using SWIG for Matlab/Octave wrapping
+
+- Create Ton's gait2de model with PyDy
+- Organize Ton's gait2de code and include my PyDy code for public distribution.
 
 - Wrap the HBM C code
 
@@ -66,28 +61,17 @@ Lab Website
   - check into embedding zotero collections into a page
   - check into using CMFBibliographyAT with Plone 4.3
 
-- Get folks to submit headshot and bio
-- Finish the a people page
-- Continue conversation with folks
-- [x] Enable intranet/external workflow.
+- Get folks to submit headshot and bio: need Samin
+- Finish the a people page: need Samin
 - Figure out how to display the event date instead of the creation date in
   the rss feed: https://github.com/csu-hmc/hmc.csuohio.edu/issues/1
 - Overload the rss portlet template to get the gcal event data instead.
 - Add google analytics.
 - Allow anonymous commenting.
-- Select a quote and start working with the consultant.
-
-Purchasing
-----------
-
-- Check on docking stations.
-- Check on Newegg order.
-- [x] Order Matlab DSP toolbox for Sandy.
-
-CSU
-===
-
-- Email Mounir about teaching
+- Make an internal reviewer role that has all permissions of a reviewer except
+  approving external publication. Use this for the lab doc folder. Another
+  solution would be to have a specific workflow for that folder (i.e. no public
+  parts and the lab has full access to the folder.)
 
 Yeadon
 ======
@@ -123,40 +107,32 @@ Bicycle Stuff
   - Make a DOI for the H5 files but only include a readme that points to a
     download on my site.
 
-- [x] Check on the charger for the gyrobike.
-- [x] Bring in the make magazine with the microcontroller review
-
-BMD 2013
---------
-
-- Whipple ID Paper
+Whipple ID Paper
+----------------
 
   - Add how to download data and cleanup instructions to run everything.
   - Include source code for generating the mean VAF table (this will be a bitch
     because it relies on matlab). Could try to write this in Python.
 
-- Steer torque paper
+Steer torque paper
+------------------
 
   - Add how to download data and cleanup instructions to run everything.
-  - Figure out why the paper is corrupted
+  - Use the static data testing data to verify steer torque compensation works
+    (would be nice if I had some no-hands data)
+  - Find out more details about Kondo/Kagyema measurements of steer torque
 
-- Make a steer torque paper presentation
+BMD 2013
+--------
 
-   - Use the static data testing data to verify steer torque compensation works
-     (would be nice if I had some no-hands data)
-   - Find out more details about Kondo/Kagyema measurements of steer torque
-
-- Make a Whipple ID paper presentation
-
-  - Make time series plot showing the model outputs compared to the measured
-
-- Make a Rider Control ID poster
-
-- Book hotel for BMD
 - Post update on my blog about BMD/JSAE copyright conclusion
 
 PyDy/SymPy
 ==========
+
+- Start proposal for PyDy future
+
+   - http://www.multibody.net/mbsymba/ add to proposal
 
 - Try out CSympy with some mechanics problems
 
@@ -164,10 +140,11 @@ PyDy/SymPy
   - Replace appropriate imports with csympy functions in mechanics
   - Compare the n-link pendulum derivation speed problem speed with/without csympy
 
+PyDyViz
+-------
+
 - Push pydy_viz release 0.1.0 to PyPi
 - Review Tarun's tutorial PR(s)
-- Review Sachins PR 2478
-- Start proposal for PyDy future
-- http://www.multibody.net/mbsymba/ add to proposal
+
 - Make some example visualizations
 - Speed up the transform generations in pydy viz
