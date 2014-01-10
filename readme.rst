@@ -2,6 +2,22 @@
 The List
 ========
 
+Today
+=====
+
+- [x] [10 min] Download backup of biosport.ucdavis.edu
+- [ ] Do a new backup of the biosport.ucdavis.edu website.
+- [1 hr] upload hmc website to pypi
+- [10 min] Turn on hmc.theme on live website
+- [x] [1 hr] Read a paper (Wang/Delp 2012)
+- [2 hr] PyCon Tutorial
+- [4 hr] Walking system id
+- PyDy Website
+- Open sim application
+- yeadon paper
+- Abstract for Akron
+- Update SymPy release notes with my PRs
+
 Human Motion and Control Lab
 ============================
 
@@ -52,7 +68,6 @@ Lab Website
 
 - Enable MathJax the "correct" way
 - Duplicate website backups offsite (on our NAS or S3 bucket)
-- Complete the Diazo rules in the theme and upload to the website
 - Add all the buttons I've clicked to the generic settings and push to live
   server
 - Setup workflow for website for publishing public documents
@@ -61,8 +76,7 @@ Lab Website
   - check into embedding zotero collections into a page
   - check into using CMFBibliographyAT with Plone 4.3
 
-- Get folks to submit headshot and bio: need Samin
-- Finish the a people page: need Samin
+- [x] Get folks to submit headshot and bio: need Samin
 - Figure out how to display the event date instead of the creation date in
   the rss feed: https://github.com/csu-hmc/hmc.csuohio.edu/issues/1
 - Overload the rss portlet template to get the gcal event data instead.
@@ -139,6 +153,8 @@ PyDy/SymPy
   - Build cysmpy
   - Replace appropriate imports with csympy functions in mechanics
   - Compare the n-link pendulum derivation speed problem speed with/without csympy
+
+- Develop the PyCon tutorial (and maybe the Akron one too).
 
 PyDyViz
 -------
